@@ -82,7 +82,7 @@ tar -xzvf yeahreum-qt-linux.tar.gz
 
 # Paste the following lines in yeahreum.conf.
 
-
+```
  rpcuser=rpc_yeahreum
  rpcpassword=7c6ca5196c481b88011a6bcea
  rpcallowip=127.0.0.1
@@ -90,7 +90,7 @@ tar -xzvf yeahreum-qt-linux.tar.gz
  listen=1
  server=1
  addnode=yahrm.net
-
+```
 
 # Start your YDLC with the following command.
 
