@@ -3,7 +3,8 @@
 How do I setup a Yeahreum Daemon Linux Command (YDLC) on Ubuntu Server 18.04
 
 
-# Update your Ubuntu machine.
+# Update your Ubuntu machine for [Windows server](https://github.com/yeahreum/wserver)
+ .
 
 ```
 sudo apt-get update
@@ -27,7 +28,7 @@ sudo apt-get upgrade
  ```
  sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler unzip software-properties-common
 ```
-# Install Berkeley DB.
+# Install Berkeley DB for YDLC (Yeahreum).
 
 ```
  sudo add-apt-repository ppa:bitcoin/bitcoin
@@ -68,7 +69,7 @@ tar -xzvf yeahreum-daemon-linux.tar.gz
 tar -xzvf yeahreum-qt-linux.tar.gz
 ```
 
-# Install the daemon and tools.
+# Install the YDLC and tools.
 ```
  sudo mv yeahreum yeahreum-cli yeahreum-tx /usr/bin/
 ```
@@ -95,7 +96,7 @@ tar -xzvf yeahreum-qt-linux.tar.gz
 # Start your YDLC with the following command.
 
 ```
-# yeahreum
+yeahreum
 ```
 
 
