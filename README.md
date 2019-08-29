@@ -3,13 +3,14 @@
 How do I setup a Yeahreum Daemon Linux Command (YDLC) on Ubuntu Server 18.04
 
 
-
-
 # Update your Ubuntu machine.
 
-  sudo apt-get update
-  sudo apt-get upgrade
-
+```
+sudo apt-get update
+```
+```
+sudo apt-get upgrade
+```
 
 # Install the required dependencies.
 
@@ -45,7 +46,7 @@ Manually Install
 wget "api.server.yeahreum.net/daemon/yeahreum-qt-linux.tar.gz" -O yeahreum-qt-linux.tar.gz
 
 Manually Install
-[Download GT YDLC](api.server.yeahreum.net/daemon/yeahreum-qt-linux.tar.gz)
+[Download GT YDLC](https://api.server.yeahreum.net/daemon/yeahreum-qt-linux.tar.gz)
 
 # Extract the tar files.
 
